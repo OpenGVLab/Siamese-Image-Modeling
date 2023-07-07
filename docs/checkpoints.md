@@ -7,10 +7,10 @@ We provide links for you to download the checkpoints of SiameseIM models here.
         <th>Model</th><th>Backbone</th><th>Pretrained Epoch</th><th>Finetuned on ImageNet</th><th>Link</th>
     </tr>
     <tr align="center">
-        <td>SiameseIM</td><td>ViT-Base</td><td>1600</td><td>w/o</td><td><a href="">Download</a></td>
+        <td>SiameseIM</td><td>ViT-Base</td><td>1600</td><td>w/o</td><td><a href="https://github.com/OpenGVLab/Siamese-Image-Modeling/releases/download/v1.0/sim_base_1600ep_pretrain.pth">Download</a></td>
     </tr>
      <tr align="center">
-        <td>SiameseIM<sub>ft</sub></td><td>ViT-Base</td><td>1600</td><td>w/</td><td><a href="">Download</a></td>
+        <td>SiameseIM<sub>ft</sub></td><td>ViT-Base</td><td>1600</td><td>w/</td><td><a href="https://github.com/OpenGVLab/Siamese-Image-Modeling/releases/download/v1.0/sim_base_1600ep_finetune.pth">Download</a></td>
     </tr>
     
 </table>
