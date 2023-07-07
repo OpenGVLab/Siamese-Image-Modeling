@@ -25,10 +25,7 @@ class RandomResizedCrop(transforms.RandomResizedCrop):
             tuple: params (i, j, h, w) to be passed to ``crop`` for a random
             sized crop.
         """
-        if torch.__version__ == '1.11.0+cu113':
-            width, height = F.get_image_size(img)
-        else:
-            width, height = F._get_image_size(img)
+        width, height = F.get_image_size(img)
         area = height * width
 
         log_ratio = torch.log(torch.tensor(ratio))
@@ -108,10 +105,7 @@ class SingleRandomResizedCrop(transforms.RandomResizedCrop):
             tuple: params (i, j, h, w) to be passed to ``crop`` for a random
             sized crop.
         """
-        if torch.__version__ == '1.11.0+cu113':
-            width, height = F.get_image_size(img)
-        else:
-            width, height = F._get_image_size(img)
+        width, height = F.get_image_size(img)
         area = height * width
 
         log_ratio = torch.log(torch.tensor(ratio))
