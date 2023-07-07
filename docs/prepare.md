@@ -7,6 +7,8 @@
 * Python >=3.7
 * We recommend to use Pytorch1.11 for a faster training speed.
 * timm == 0.6.12
+* numpy == 1.21.5
+* tensorboard
 
 To run few-shot evaluation, [cyanure](https://github.com/inria-thoth/cyanure) package is further required. You can install it with
 ```
