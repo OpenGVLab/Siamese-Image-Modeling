@@ -114,11 +114,9 @@ This project is released under the [CC-BY-NC 4.0 license](./LICENSE).
 ## 🖊️ Citing SiameseIM
 If you find SiameseIM useful in your research, please consider citing:
 ```bibtex
-@inproceedings{tao2023siamese,
-  title={Siamese image modeling for self-supervised vision representation learning},
-  author={Tao, Chenxin and Zhu, Xizhou and Su, Weijie and Huang, Gao and Li, Bin and Zhou, Jie and Qiao, Yu and Wang, Xiaogang and Dai, Jifeng},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={2132--2141},
-  year={2023}
+@article{duan2024vrwkv,
+  title={Learning 1D Causal Visual Representation with De-focus Attention Networks},
+  author={Tao, Chenxin and Zhu, Xizhou and Su, Shiqian and Lu, Lewei and Tian, Changyao and Luo, Xuan and Huang, Gao and Li, Hongsheng and Qiao, Yu and Zhou, Jie and Dai, Jifeng},
+  year={2024}
 }
 ```
